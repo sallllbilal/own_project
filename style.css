@@ -1,0 +1,138 @@
+/* Add your custom styles here */
+
+.cardBook {
+  width: calc(33.3333% - 2rem);
+  margin: 1rem;
+}
+
+.card-img-top {
+  height: 280px;
+  object-fit: cover;
+}
+
+.detailsCard {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.detailsCard:hover {
+  transform: scale(1.05);
+}
+/* Add your custom styles here */
+
+.navbar {
+  background-color: #34495e; /* Change this to your desired color */
+}
+
+.navbar-brand {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: white;
+}
+
+.nav-link:hover {
+  color: #ecf0f1;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+#inpSearch {
+  border-radius: 20px;
+}
+
+#searchBtn {
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+#btnOpenForm {
+  font-size: 18px;
+  color: white;
+  background-color: #3498db; /* Change this to your desired color */
+}
+
+#btnOpenForm:hover {
+  background-color: #2980b9; /* Change this to your desired color */
+}
+
+.cardBook {
+  width: calc(33.3333% - 2rem);
+  margin: 1rem;
+}
+
+.card-img-top {
+  height: 280px;
+  object-fit: cover;
+}
+
+.detailsCard {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.detailsCard:hover {
+  transform: scale(1.05);
+}
+
+.btn-outline-success {
+  color: #27ae60; /* Change this to your desired color */
+  border-color: #27ae60; /* Change this to your desired color */
+}
+
+.btn-outline-danger {
+  color: #e74c3c; /* Change this to your desired color */
+  border-color: #e74c3c; /* Change this to your desired color */
+}
+
+.btn-outline-warning {
+  color: #f39c12; /* Change this to your desired color */
+  border-color: #f39c12; /* Change this to your desired color */
+}
+
+.btn-outline-info {
+  color: #3498db; /* Change this to your desired color */
+  border-color: #3498db; /* Change this to your desired color */
+}
+
+.btn-outline-primary {
+  color: #3498db; /* Change this to your desired color */
+  border-color: #3498db; /* Change this to your desired color */
+}
+
+.btn-primary {
+  background-color: #3498db; /* Change this to your desired color */
+  border-color: #3498db; /* Change this to your desired color */
+}
+
+.btn-primary:hover {
+  background-color: #2980b9; /* Change this to your desired color */
+  border-color: #2980b9; /* Change this to your desired color */
+}
+/* Стилизация кнопок "Next" и "Previous" */
+#prevBtn,
+#nextBtn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50px; /* Превращает кнопку в почти круглую форму */
+  padding: 5px 15px; /* Увеличил отступы для лучшего визуального восприятия */
+  cursor: pointer;
+}
+
+#prevBtn:hover,
+#nextBtn:hover {
+  background-color: #0056b3;
+}
+
+/* Отображаем кнопки в зависимости от наличия страниц */
+.page-item.disabled #prevBtn,
+.page-item.disabled #nextBtn {
+  display: none;
+}
